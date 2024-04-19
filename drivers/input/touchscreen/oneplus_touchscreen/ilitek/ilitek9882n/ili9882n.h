@@ -89,8 +89,6 @@
 #ifdef CONFIG_FB
 #include <linux/notifier.h>
 #include <linux/fb.h>
-#else
-#include <linux/earlysuspend.h>
 #endif
 
 #ifdef CONFIG_DRM_MSM
